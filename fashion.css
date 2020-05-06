@@ -1,0 +1,1052 @@
+*::selection{
+    background-color: rgb(226, 207, 226) !important;
+}
+html{
+    font-style: italic;
+    height: 100%;
+    overflow-x: hidden;
+}
+body{
+    background-color: #f4f2f2 !important;  
+    overflow-x: hidden;
+    height: 100%;
+}
+header{
+    background-color: white;
+}
+button , a{
+    cursor: pointer;
+}
+@media screen and (min-width:1025px) and (max-width:1200px){
+    .asideDiv3  h6{
+        font-size: .8rem !important;
+    }
+    .asideDiv3 img {
+        height: 77px;
+    }
+    .asideDiv2 {
+        height: 190px !important;
+    }
+    .asideDiv5 .image1 h3 {
+        bottom: 26% !important;
+    }
+
+}
+@media screen and (min-width:800px) and (max-width:992px){
+    .navbar-nav{
+        background-color: white !important; 
+        margin-top: -2% !important;
+    }
+    .navbar {
+        height: 95px !important;
+        margin-top: -2% !important;
+    }
+    .fashionBlogger h5{
+        text-align: justify;
+        font-size:1rem !important;
+    }
+    .mainPage {
+        width: 95% !important;
+    }
+    .footer .logoImg {
+        width: 15% !important;
+        margin-top: -5% !important;
+    }
+    .asideDiv3  h6{
+        font-size: .8rem;
+    }
+    .asideDiv3 img {
+        height: 75px !important;
+    }
+    .footerDiv3 .div2 {
+        width: 44% !important;
+    }
+    .asideDiv4.mt-5 {
+        margin-top: 4rem!important;
+    }
+    .asideDiv4 .image2 .imag {
+        height: 314px !important;
+    }
+    .asideDiv4 .image1 img {
+        height: 300px !important;
+    }
+    .asideDiv5 .image1 {
+        border: 22px solid #040313 !important;
+        height: 382px !important;
+    }
+    .asideDiv5 .image1 h3 {
+        bottom: 38% !important;
+        left: 14% !important;
+    }
+    .asideDiv6Img.mt-5{
+        margin-top: 6rem !important;
+    }
+    .footer{
+        padding-top: 3%;
+    }
+    footer {
+      
+        margin: -3% auto 0;
+    }
+}
+@media screen and (min-width:600px) and (max-width:799px){
+    .navbar-nav{
+        background-color: white !important; 
+        margin-top: -3% !important;
+    }
+    .asideGallary {
+        grid-template-columns:auto auto !important;
+    }
+    .fashionBlogger1 button,.fashionBlogger2 button,.fashionBlogger3 button {
+        display: block;
+    }
+    .fashionBlogger1 div:first-child, .fashionBlogger2 div:first-child, .fashionBlogger3 div:first-child {
+        bottom: 38% !important;
+    }
+    .fashionBlogger h5{
+        font-size:1rem !important;
+    }
+    .footerDiv1 .logoImg {
+        width: 20% !important; 
+    }
+    .footerDiv1{
+        padding-top: 2% !important;
+    }
+    .footerDiv3 .logoImg {
+        width: 26% !important;
+    }
+    .products {
+        width: 60% !important;
+    }
+    .navbar{
+        height: 95px !important;
+        margin: -3% auto 0 !important;
+    }
+    .mainPage {
+        width: 95% !important;
+    }
+    .Main{
+        width: 64% !important;
+    }
+    .asidepage{
+        width: 35% !important;
+    }
+    .asideDiv2 .text1 {
+        bottom: 14px !important;
+        font-weight: 400 !important;
+        left: 7% !important;
+    }
+    .asideDiv2 button {
+        left: 20px !important;
+        bottom: 170px !important;
+    }
+    .asideDiv3 .col-4 ,.mainDiv6 .col-4 {
+        padding-right: 1px !important;
+        padding-left: 5px !important;
+    }
+    .asideDiv3 .col-8 ,.mainDiv6 .col-8{
+        padding-right: 2px !important;
+        padding-left: 4px !important;
+    }
+    .asideDiv4 .image2 ,.asideDiv5 .image1 ,.asideDiv5 .image2  {
+        width: 100% !important;
+    }
+    .asideDiv4 .image2 .imag {
+        height: 300px !important;
+    }
+    #instagramIcon {
+        bottom: 50% !important;
+    }
+    .asideDiv6Img {
+        width: 100% !important;
+    }
+    .asideDiv4 .image2 h2 {
+        bottom: 34% !important;
+    }
+    .asideDiv4.mt-5 {
+        margin-top: 3rem!important;
+    }
+    .asideDiv6Img.mt-5{
+        margin-top: 17rem!important;
+    }
+    .mainDiv6 img{
+        height: 60px;
+
+    }
+    .mainDiv6 .left img{
+        height: 90px !important;
+    }
+    .item1, .item2 , .item3 , .item4,.item5,.item6{
+        height: 130px !important;
+    }
+    .asideDiv4 .image1 {
+        padding: 15px !important;
+        width: 100% !important;
+    }
+    .asideDiv4 .image1 img {
+        height: 300px !important;
+    }
+
+
+    .asideDiv2 span {
+        left: 100px !important;
+        bottom: 160px !important;
+    }
+    .asideDiv5 .image1 {
+        border: 16px solid #040313 !important;
+        height: 300px !important;
+    }
+    .asideDiv5 .image1 h3 {
+        bottom: 42% !important;
+        left: 6% !important;
+    }
+    .asideDiv5 .image2 .imag {
+        height: 266px !important;
+    }
+    .asideDiv5.mt-5 {
+        margin-top: 4rem !important;
+    }
+    .footerDiv4 .products{
+        width: 100% !important;
+    }
+    .textFooter span{
+        font-size: 100% !important;
+    }
+    .searchForm{
+        display: block;
+    }
+    .search{
+        display: none;
+    }
+
+}
+@media screen and (min-width:300px) and (max-width:599px){
+    .navbar-nav{
+        background-color: white !important; 
+        margin-top: -5% !important;
+    }
+    .searchForm{
+        display: block;
+    }
+    .search{
+        display: none;
+    }
+    .asideGallary {
+        grid-template-columns:auto auto !important;
+    }
+    .mainPage {
+        width: 95% !important;
+    }
+    .fashionBlogger{
+        display: block !important;
+        background-color: white;
+        padding-bottom: 4%;
+    }
+    .fashionBlogger1 ,  .fashionBlogger2 ,  .fashionBlogger3{
+        width: 90% !important;
+        margin: 0 auto 3%;
+    }
+    .navbar{
+        height: 90px !important;
+    }
+    .mainPage{
+        width: 95% !important;
+        margin: 0 auto !important;
+        padding-top: 4%;
+    }
+    .footerDiv4 .products{
+        width: 100% !important;
+    }
+    .textFooter span{
+        font-size: 100% !important;
+    }
+    .footerDiv2 .col-4{
+        -ms-flex: 0 0 100% !important;
+        flex: 0 0 100% !important;
+        max-width: 100% !important; 
+        margin-bottom: 8%;
+    }
+
+    .footerDiv2 .col-2 {
+        -ms-flex: 0 0 16.666667% !important;
+        flex: 0 0 22% !important;
+        max-width: 22% !important;
+    }
+    .footer .logoImg {
+        width: 22% !important;
+        margin-top: -12% !important;
+    }
+    .footerDiv3 .logoImg{
+        width: 32% !important;
+        margin-top: -5% !important;
+
+    }
+
+    .products{
+        width: 60% !important;
+        margin-left: -6% !important;
+    }
+    .footer{
+        padding-top: 3%;
+    }
+    .Footerhr1 {
+        margin-bottom: 6% !important;
+        margin-top: 6% !important;
+    }
+    .Main{
+        width: 52% !important;
+    }
+    .asidepage{
+        width: 45% !important;
+    }
+    .MainDiv2{
+        display: block !important;
+    }
+    .MainDiv2 .left ,.MainDiv2 .right{
+        width: 100% !important;
+    }
+    .asideDiv2 .text1 {
+        left: 16px !important;
+        font-weight: 400 !important;
+
+    }
+    .asideDiv2 button {
+        left: 16px !important;
+        bottom: 148px !important;
+    }
+    .asideDiv2 span {
+        left: 94px !important;
+        bottom: 150px !important;
+    }
+    .asideDiv3 img {
+        height: 70px !important;
+    }
+    .asideDiv3 .col-4  ,.asideDiv3 .col-8{
+        padding-left: 2px !important;
+        padding-right: 2px !important;
+    } 
+    .asideDiv3 h6{
+        font-size: 0.8rem !important;
+    }
+    .asideDiv4 .image1 {
+        padding: 14px !important;
+        width: 100% !important;
+    }
+    .asideDiv4 .image2 ,.asideDiv5 .image2{
+        width: 100% !important;
+    }
+    .asideDiv5 .image2 h3 {
+        width: 50% !important;
+        left: 20% !important;
+    }
+    #instagramIcon {
+        bottom: 46% !important;
+    }
+    .asideDiv4 .image2 h2 {
+        bottom: 32% !important;
+    }
+    .MainDiv4, .MainDiv8 , .mainDiv5, .mainDiv6 {
+        display: block !important;
+    }
+    .MainDiv4 .left, .MainDiv8 .left ,.MainDiv4 .right, .MainDiv8 .right,.mainDiv5 .left, .mainDiv5 .right, .mainDiv6 .left, .mainDiv6 .right {
+        width: 100% !important;
+    }
+    .asideDiv5 .image1 {
+        border: 15px solid #040313 !important;
+        padding: 30px !important;
+        width: 100% !important;
+        height: 384px !important;
+    }
+    .asideDiv5 .image1 h3 {
+        bottom: 42% !important;
+        left: 4% !important;
+    }
+    .asideDiv6Img {
+        width: 100% !important;
+    }
+    .asideDiv5{
+        padding-bottom: 470% !important;
+    }
+    .asideDiv3 .mt-2 {
+        margin-top: 3rem !important;
+
+    }
+    .asideDiv3.pb-3 {
+        padding-bottom: 11rem!important;
+    }
+    .Div2Aside.px-3 {
+        padding-left: 0.5rem !important;
+        padding-right: 0.5rem !important;
+    }
+    .asideDiv4 {
+        padding-bottom: 125% !important;
+    }
+}
+/*******************************NavBar********************************/
+.navbar{
+    margin:0 auto;
+    width: 70%;
+    height: 50px;
+    z-index: 50;
+}
+.navbar img{
+    width: 100px;
+    margin-right: 60px;
+}
+.nav-link{
+    color: #a44969;
+    text-decoration: line-through;
+}
+.nav-link:hover ,.navbar li.active{
+    color:#a44969;
+    background-color: rgb(22, 7, 39);
+    height: 50px;
+}
+.search{
+   color: black !important;
+}
+.navbar-toggler{
+    padding: 0.5rem .75rem !important; 
+    background-color:rgb(22, 7, 39) !important;
+    border: 1px solid rgb(22, 7, 39) !important ;
+}
+#toggler{
+    color: aliceblue;
+}
+form input{
+    border-radius: .8rem;
+    width: 55%;
+    border: none;
+    background-color: #eee;
+    padding: 6px 11px;
+}
+form .searchIcon {
+    transform: translateX(-40px) !important;
+    color: #a0a0a0 !important;
+}
+.searchForm{
+    display: none;
+}
+
+form.mr-1 {
+    margin-right: -5.75rem!important;
+}
+.navbar-nav .nav-link {
+    padding-left: 10px !important;
+}
+/****************************fashionBloger***************************/
+.fashionBlogger{
+    width: 100%;
+    display: flex;
+    color: aliceblue;
+}
+.fashionBlogger1 ,.fashionBlogger2 ,.fashionBlogger3{
+    position:relative ;
+    height: 500px;
+    width: 34%;
+    overflow: hidden;
+}
+.fashionBlogger1{
+    background: linear-gradient(transparent, rgba(141, 73, 113)), url("Images/fashionBlogger1.jpg");
+
+}
+.fashionBlogger2{
+    background-repeat: no-repeat !important;
+    background: linear-gradient(transparent, rgba(150, 129, 73)), url("Images/fashionBlogger13.jpg");
+}
+.fashionBlogger3{
+    background: linear-gradient(transparent, rgba(119, 165, 192)), url("Images/fashionBlogger3.jpg");
+}
+.fashionBlogger1 div:first-child ,.fashionBlogger2 div:first-child ,.fashionBlogger3 div:first-child{
+    position: absolute;
+    bottom: 34%;
+    left: 5%;
+}
+.fashionBlogger1 button ,.fashionBlogger2 button ,.fashionBlogger3 button{
+    padding: 1px 10px;
+    color: aliceblue;
+    border-radius: .6rem;
+}
+.fashionBlogger1 button{
+    background-color: #719bb6;
+    border: 1px solid #719bb6;
+}
+.fashionBlogger1 button:hover{
+    background-color: #598097;
+    border: 1px solid #598097;
+}
+.fashionBlogger2 button{
+    background-color: #a44969;
+    border: 1px solid #a44969;
+}
+.fashionBlogger2 button:hover{
+    background-color: #7c2f4a;
+    border: 1px solid #7c2f4a;
+}
+.fashionBlogger3 button{
+    background-color: #775367;
+    border: 1px solid #775367;
+}
+.fashionBlogger3 button:hover{
+    background-color: #4b3240;
+    border: 1px solid #4b3240;
+}
+.fashionBlogger1 h5,.fashionBlogger2 h5,.fashionBlogger3 h5{
+    position: absolute;
+    bottom: 15%;
+    left: 5%;
+}
+.fashionBlogger1 div:last-child ,.fashionBlogger2 div:last-child ,.fashionBlogger3 div:last-child{
+    position: absolute;
+    bottom: 10%;
+    left: 5%;
+}
+/*************************MAin Page****************************/
+.mainPage{
+    width: 85%;
+    margin: 3% auto;
+}
+.Main{
+    width: 65%;
+    float: left;
+}
+.asidepage{
+    width: 32%;
+    float: right;
+}
+.header{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.header h6{
+    color: #981166;
+}
+.header div span{
+    text-decoration: line-through;
+}
+.header div .active{
+    color: #5ba5a8 !important;
+}
+.header div a{
+    color: black !important;
+}
+.header div a:hover{
+    color: #5ba5a8 !important;
+}
+
+.Main hr{
+    margin: 0% 0 5%;
+    background:linear-gradient(to right, #de90ab , #82bdbf 65%);
+    height: 1px;
+}
+.MainDiv1{
+    background-color: white;
+}
+.MainDiv1 img{
+    width: 100%;
+}
+.img1 .rate , .left .rate , .right .rate{
+    background-color: rgb(131, 16, 131);
+    width: 80px;
+    color: aliceblue;
+    text-align: right;
+    display: inline-block;
+    margin-right: 10px;
+}
+.img1 .rate span ,.left .rate span , .right .rate span{
+    margin-right: 8px;
+}
+.Main h4{
+    background: linear-gradient(to right,#4d247c ,rgb(75, 183, 183));
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+.Main .text1{
+    font-weight: 600;
+    text-align: justify;
+}
+.MainDiv2{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.MainDiv2 .left ,.MainDiv2 .right{
+    display: inline-block;
+    width: 45%;
+    background-color: white;
+}
+.MainDiv2 .left img ,.MainDiv2 .right img{
+    width: 100%;
+}
+.MainDiv2 .left h5 ,.MainDiv2 .right h5{
+    text-align: justify;
+}
+.left .rate {
+    background-color: rgb(185, 76, 89);
+}
+.right .rate{
+    background-color: rgb(107, 107, 158);
+}
+.time{
+    text-decoration: line-through;
+}
+.MainDiv3 img{
+width: 100%;
+}
+.MainDiv3{
+    background-color: white;
+}
+.mainDiv3 .header h6{
+    color: rgb(199, 81, 120);
+}
+.mainDiv3 .header div span{
+    text-decoration: line-through;
+}
+.mainDiv3 .header div .active{
+    color: rgb(173, 55, 100) !important;
+}
+.mainDiv3 .header div a{
+    color: black !important;
+}
+.mainDiv3 .header div a:hover{
+    color: rgb(173, 55, 100) !important;
+}
+
+.mainDiv3 hr{
+    margin: 0% 0 5% !important;
+    background: linear-gradient(to right, rgb(222, 102, 148)30% , rgb(166, 153, 197)68%);
+    height: 1px;
+}
+.mainDiv3 h4{
+    background: linear-gradient(to right, rgb(222, 102, 148), rgb(151, 63, 151)40%, rgb(146, 125, 193));
+    
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+.mainDiv3 .rate{
+    background-color: rgb(185, 98, 78);
+}
+.MainDiv4 ,.MainDiv8{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 6%;
+}
+.MainDiv4 img ,.MainDiv8 img{
+   height: 80px;
+}
+
+.MainDiv4 .left ,.MainDiv8 .left{
+    width: 48%;
+}
+.MainDiv4 .right,.MainDiv8 .right{
+    width: 48%;
+}
+
+.MainDiv4 h6 , .MainDiv8 h6{
+    text-align: justify;
+}
+
+
+
+.MainDiv5 .header h6{
+    color: #bc2cc2;
+}
+.MainDiv5 .header div span{
+    text-decoration: line-through;
+}
+.MainDiv5 .header div .active{
+    color: #5ba5a8 !important;
+}
+.MainDiv5 .header div a{
+    color: black !important;
+}
+.MainDiv5 .header div a:hover{
+    color: #5ba5a8 !important;
+}
+
+.MainDiv5  hr{
+    margin: 0% 0 5%;
+    background:linear-gradient(to right, #bc2cc2 , #82bdbf 65%);
+    height: 1px;
+}
+.mainDiv5 ,.mainDiv6 {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.mainDiv5 .left ,.mainDiv5 .right ,.mainDiv6 .left,.mainDiv6 .right {
+    display: inline-block;
+    width: 45%;
+    background-color: white;
+}
+.mainDiv5 .left img ,.mainDiv5 .right img ,.mainDiv6 .left img {
+    width: 100%;
+}
+.mainDiv5 .left h5 ,.mainDiv5 .right h5 ,.mainDiv6 .left h5{
+    text-align: justify;
+}
+.mainDiv5 .left .rate,.mainDiv5 .right .rate ,.mainDiv6 .left .rate {
+    background-color: rgb(185, 76, 89);
+}
+.mainDiv6 .left  .text1{
+    text-align: justify;
+    font-weight: 600;
+}
+.mainDiv5 .time .mainDiv6 .time{
+    text-decoration: line-through;
+}
+.mainDiv6 .right{
+    background-color: transparent;
+}
+
+
+.MainDiv7 img{
+width: 100%;
+}
+.MainDiv7{
+    background-color: white;
+}
+.mainDiv7 .header h6{
+    color:rgb(72, 44, 149);
+}
+.mainDiv7 .header div span{
+    text-decoration: line-through;
+}
+.mainDiv7 .header div .active{
+    color:rgb(72, 44, 149)!important;
+}
+.mainDiv7 .header div a{
+    color: black !important;
+}
+.mainDiv7 .header div a:hover{
+    color: rgb(72, 44, 149) !important;
+}
+
+.mainDiv7 hr{
+    margin: 0% 0 5% !important;
+    background: linear-gradient(to right, rgb(72, 44, 149) ,  rgb(217, 37, 225,0.6)68%);
+    height: 1px;
+}
+.mainDiv7 h4{
+    background: linear-gradient(to right,  rgb(72, 44, 149) ,  rgb(217, 37, 225,0.6)68%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+.mainDiv7 .rate{
+    background-color: rgb(185, 98, 78);
+}
+.MainDiv7 .time{
+    text-decoration: line-through;
+}
+.MainDiv7 video{
+    width: 100%;
+
+}
+/*********************Aside**************************/
+.asideGallary
+{
+    display: grid;
+    grid-template-columns: auto auto auto ;
+    column-gap: 8px;
+    row-gap: 8px;
+    text-align: center;
+}
+.asideGallary div{
+    font-weight: 500;
+    color: aliceblue;
+}
+
+.item1 {
+     
+     background-color: #295396;
+     height: 145px;
+     padding:2%;
+ }
+.asideGallary img{
+     width: 35px;
+     border-radius: 50%;
+     border: 2px solid white;
+     margin-top: 5px;
+     margin-bottom: 30%;
+ }
+ .item2 img{
+     border:1px solid white;
+ }
+.item2 {
+    background-color: #00adef;
+   
+     height: 145px;
+     padding:2%;
+}
+.item3 { 
+    height: 145px;
+    padding:2%;
+    background-color: #cc2127;
+}
+.item4 {
+    background-color: #4986cc;
+    height: 145px;
+    padding:2%;
+}
+.item5 { 
+    height: 145px;
+    padding:2%;
+    background:linear-gradient(130deg, #e2e274, #8f0c8f   , #2a2aa2);
+}
+.item5 img{
+    width: 33px;
+    height: 33px;
+}
+.item6 {
+    height: 145px;
+    padding:2%; 
+    background-color: #dc4e41;
+}
+.asideDiv2{
+    position: relative;
+    background: linear-gradient(transparent, rgb(100, 144, 173)), url("Images/image30.jpg");
+    width: 100%;
+    background-repeat: no-repeat;
+    height: 240px;
+    color: aliceblue;
+}
+.Div2Aside{
+    background-color: white;
+}
+.asideDiv2 button{
+    position: absolute;
+    width: 70px;
+    height: 31px;
+    color: aliceblue;
+    background-color: #6c216c;
+    border: 1px solid #6c216c; 
+    left: 35px;
+    bottom: 115px;
+}
+.asideDiv2 span{
+    position: absolute;
+    left: 110px;
+    bottom: 115px;
+}
+
+.asideDiv2 .text1 {
+    position: absolute;
+    width: 80%;
+    margin: 0 auto;
+    left: 35px;
+    text-align: justify;
+}
+.asideDiv2 .text1{
+    bottom: 20px;
+    font-weight: 500;
+}
+
+.asideDiv3{
+    width: 100%;
+    margin: 0 auto;
+    background-color: white;
+}
+.asideDiv3 h6 , .asideDiv3 .div2{
+    text-decoration: line-through ;
+}
+.asideDiv3 h6{
+    text-align: justify;
+}
+.asideDiv3 img{
+    height: 85px;
+}
+
+.asideDiv4 .image1 img{
+    width: 100%;
+    height: 320px;
+}
+.asideDiv4 .image1{
+    position: relative;
+    background-color: #04020e;
+    padding: 30px;
+    width: 90%;
+}
+.image1 h2,.image1 div{
+    position: absolute;
+    color:aliceblue;
+}
+.image1 h2{
+    top: 15%;
+}
+.image1 div{
+    bottom: 18%;
+}
+.asideDiv4.mt-5{
+    margin-top: 5rem!important;
+}
+.asideDiv4 .image1.mb-4{
+    margin-bottom: 2.2rem!important;
+}
+.asideDiv4 .image2{
+    width: 90%;
+    position: relative;
+}
+.asideDiv4 .image2 .imag{
+    width: 100%;
+    height: 370px;
+}
+.asideDiv4 .image2  h2 ,.asideDiv4 .image2 div{
+    position: absolute;
+    color: black;
+    left: 10%;
+}
+.asideDiv4 .image2  h2{
+    bottom: 25%;
+}
+.asideDiv4 .image2  div{
+    bottom: 10%;
+}
+#instagramIcon{
+    position: absolute;
+    bottom: 40%;
+}
+
+
+.asideDiv5.mt-5{
+    margin-top: 6rem !important;
+}
+.asideDiv5 .image1{
+    position: relative;
+    background: linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6)),url(Images/photo-1539109136881-3be0616acf4b.webp);
+    border: 30px solid #040313;
+    padding: 30px;
+    width: 90%;
+    height: 415px;
+}
+.asideDiv5 .image1 h3,.asideDiv5 .image1 div{
+    position: absolute;
+    color: aliceblue;
+}
+.asideDiv5 .image1 h3{
+    bottom: 20%;
+}
+.asideDiv5 .image1 div{
+    bottom: 5%;
+}
+.asideDiv5 .image2{
+    width: 90%;
+    position: relative;
+}
+.asideDiv5 .image2 h3{
+    position: absolute;
+    color: aliceblue;
+    width: 24%;
+    bottom: 18%;
+    left: 33%;
+}
+.asideDiv5 .image2 .imag{
+    width: 100%;
+    height: 407px;
+}
+.asideDiv6Img{
+    width: 90%;
+}
+
+/*************************footer******************************/
+footer{
+    clear: both;
+    position: relative;
+    background-color: rgba(3, 8, 19);
+    width: 100%;
+   
+}
+.footer{
+    width: 80%;
+    margin: 0 auto;
+    color: aliceblue;
+}
+.footer .logoImg{
+    filter: invert(.8);
+    width:12%;
+    margin-top: -2%;
+}
+.products{
+    list-style-type: none;
+    display: inline-block;
+    width: 70%;
+}
+.products li{
+    display: inline-block;
+    margin-right: 4%;
+}
+
+.products a{
+    text-decoration: none;
+    color: aliceblue !important;
+}
+.products a:hover{
+    text-decoration: none;
+    color: pink !important;
+}
+.chbox{
+    display: inline-block;
+   
+}
+.textFooter{
+    text-align: justify;
+}
+.textFooter span{
+font-size: 120%;
+padding: 2% 4%;
+}
+.textFooter .span1{
+    background-color:rgb(17, 17, 158);
+}
+.textFooter .span2{
+    background-color:rgb(107, 187, 197);
+}
+.textFooter .span3{
+    background-color:#4588c2;
+}
+.textFooter .span4{
+    background-color:#383838;
+}
+.textFooter .span5{
+    background-color:#be3737;
+}
+
+.col2Ul{
+    list-style-type: none;
+}
+.col2Ul li a{
+    text-decoration: none;
+    color: aliceblue;
+}
+.col2Ul li a:hover{
+    color: pink;
+}
+.footer hr{
+    background: #f0f8ff78 !important;
+}
+.Footerhr1{
+    margin-bottom: 5%;
+    margin-top: -2%;
+}
+.footerDiv3 .div2{
+    float: right;
+    text-align: right;
+    width: 31%;
+    text-decoration: line-through;
+}
+.footerDiv3 .div1{
+    float: left;
+    text-decoration: line-through;
+}
+.footerDiv3 .logoImg{
+    width: 18%;
+}
+.footerDiv4 .products{
+    width: 80%;
+    margin-right: -4%;
+}
+.footerDiv4{
+    text-align: right;
+}

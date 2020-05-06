@@ -1,0 +1,642 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title> FASHION </title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Free Web tutorials">
+    <meta name="keywords" content="HTML,CSS,XML,JavaScript">
+    <meta name="author" content="John Doe">
+    <link href="fashion.css" rel="stylesheet">
+    <script src="jQuery.js"></script>
+    <link href="bootstrap-4.0.0-dist/css/bootstrap.min.css"  rel="stylesheet" >
+    <script src="bootstrap-4.0.0-dist/js/bootstrap.min.js"></script>
+    <link href="fontawesome-free-5.12.1-web/css/all.min.css" rel="stylesheet" />
+    <script src="fontawesome-free-5.12.1-web/js/all.min.js"></script> 
+    <link rel="icon" href="images/icon.png">
+</head>
+<body>
+    <header>
+      <nav class="navbar navbar-expand-lg">
+        <img src="Images/fashion logo.png">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link active" href="#">Brands <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Our-Collections</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Scarves</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Store</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Contact</a>
+            </li>
+          </ul>
+          <span class="search">
+            <a href="#" class="search"><i class="fas fa-search "></i></a>           
+          </span>
+          <form class="searchForm mr-1">
+            <input type="text" class="searchTxt"  placeholder="search">
+            <span><i class="fas fa-search searchIcon"></i></span>
+          </form>
+        </div>
+      </nav>
+    </header>
+    <main>
+        <div class="fashionBlogger">
+            <div class="fashionBlogger1">
+                <div>
+                    <button>display</button>
+                    <span>WELCOME FASHION</span>
+                </div>
+                <h5>WE FEATURE A HANDPICKED SELECTION OF INTERNATIONAL
+                    BRANDS.
+               </h5>
+               <div>
+                 <span> Shop women</span> | <span>12 Minute.</span>
+               </div>
+            </div>
+           <div class="fashionBlogger2">
+            <div>
+                <button>display</button>
+                <span>WELCOME FASHION</span>
+            </div>
+            <h5>WE FEATURE A HANDPICKED SELECTION OF INTERNATIONAL
+                BRANDS.
+           </h5>
+           <div>
+             <span> Shop women</span> | <span>12 Minute.</span>
+           </div>
+           </div>
+           <div class="fashionBlogger3">
+            <div>
+                <button>display</button>
+                <span>WELCOME FASHION</span>
+            </div>
+                <h5>WE FEATURE A HANDPICKED SELECTION OF INTERNATIONAL
+                     BRANDS .
+                </h5>
+                <div>
+                  <span> Shop women</span> | <span>12 Minute.</span>
+                </div>
+           </div>
+        </div>
+        <section class="mainPage">
+          <!--Main Page-->
+          <div class="Main">
+            <div class="header">
+                <h6>FASHION STORE</h6>
+                <div>
+                  <span><a class="active" href="#">ADIDAS</a></span> &ensp;|&ensp;
+                  <span><a href="#">ORIGINALS</a></span>&ensp;|&ensp;
+                  <span><a href="#">ADIDAS</a></span>&ensp;|&ensp;
+                  <span><a href="#">ORIGINALS</a></span>
+                </div>
+            </div>
+            <hr>
+            <div class="MainDiv1 p-3">
+                <img src="Images/40.jpg" class="mb-3" alt="image" title="image">
+                <div class="img1">
+                  <div class="rate"><span>Rate</span></div>
+                  <span class="star" onclick="clicked()" ><i class="far fa-star" id="starIcon"></i></span>
+                  <span class="star" onclick="clicked()"><i class="far fa-star" id="starIcon"></i></span>
+                  <span class="star" onclick="clicked()"><i class="far fa-star" id="starIcon"></i></span>
+                </div>
+                <h4>Designed to make you feel incredible takes you</h4>
+                <div>from 5 minutes</div>
+                <div class="text1 mt-2">
+                  we ’ve got a collection of clothing that you’ll LOVE.
+                  Think midi and maxi dresses that’ll cue oohs all round.
+                </div>
+            </div>
+            <div class="MainDiv2 mt-5">
+              <div class="left pb-5">
+                  <img src="Images/image6.jpg" alt="image6" title="image6" class="mb-3">
+                  <div class="img1 mt-3">
+                    <div class="rate"><span>Rate</span></div>
+                    <span class="star" onclick="clicked()" ><i class="far fa-star" id="starIcon"></i></span>
+                    <span class="star" onclick="clicked()"><i class="far fa-star" id="starIcon"></i></span>
+                    <span class="star" onclick="clicked()"><i class="far fa-star" id="starIcon"></i></span>
+                  </div>
+                  <h5 class="mt-3 px-3">Designed to make you feel incredible takes you</h5>
+                  <div class="time mt-3 px-3">from 30 minutes</div>
+                  <div class="text1 mt-3 px-3">
+                    we ’ve got a collection of clothing that you’ll LOVE.
+                    Think midi and maxi dresses that’ll cue oohs all round.
+                  </div>
+              </div>
+              <div class="right pb-5">
+                <img src="Images/image26.jpg" alt="image23" title="image23" class="mb-3">
+                <div class="img1 mt-3">
+                  <div class="rate"><span>Rate</span></div>
+                  <span class="star" onclick="clicked()" ><i class="far fa-star" id="starIcon"></i></span>
+                  <span class="star" onclick="clicked()"><i class="far fa-star" id="starIcon"></i></span>
+                  <span class="star" onclick="clicked()"><i class="far fa-star" id="starIcon"></i></span>
+                </div>
+                <h5 class="mt-3 px-3">Designed to make you feel incredible takes you</h5>
+                <div class="time mt-3 px-3">from 20 minutes</div>
+                <div class="text1 mt-3 px-3">
+                  we ’ve got a collection of clothing that you’ll LOVE.
+                  Think midi and maxi dresses that’ll cue oohs all round.
+                </div>
+              </div>
+
+            </div>
+            <div class="mainDiv3 mt-5">
+              <div class="header">
+                <h6>Life Style</h6>
+                <div>
+                  <span><a class="active" href="#">LIFE</a></span> &ensp;|&ensp;
+                  <span><a href="#">STYLE</a></span>&ensp;|&ensp;
+                  <span><a href="#">LIFE</a></span>&ensp;|&ensp;
+                  <span><a href="#">STYLE</a></span>
+                </div>
+            </div>
+            <hr>
+            <div class="MainDiv3 p-3">
+                <img src="Images/23.jpg" class="mb-3" alt="FB_IMG_5" title="FB_IMG_5">
+                <div class="img1">
+                  <div class="rate"><span>Rate</span></div>
+                  <span class="star" onclick="clicked()" ><i class="far fa-star" id="starIcon"></i></span>
+                  <span class="star" onclick="clicked()"><i class="far fa-star" id="starIcon"></i></span>
+                  <span class="star" onclick="clicked()"><i class="far fa-star" id="starIcon"></i></span>
+                </div>
+                <h4>Designed to make you feel incredible takes you</h4>
+                <div>from 5 minutes</div>
+                <div class="text1 mt-2">
+                  we ’ve got a collection of clothing that you’ll LOVE.
+                  Think midi and maxi dresses that’ll cue oohs all round.
+                </div>
+            </div>
+
+            </div>
+            <div class="MainDiv4 mt-3">
+              <div class="left">
+                <div class="mt-2 row">
+                  <img class="col-4" src="Images/image25.jpg" alt="image25" title="image25">
+                  <div class="div2 col-8">
+                    <h6>Designed to make you feel incredible collection</h6>
+                    <div class="div2">from 5 minutes</div>
+                  </div>
+                </div>
+                <div class="mt-2 row">
+                  <img class="col-4" src="Images/image32.jpg" alt="image32" title="image32">
+                  <div class="div2 col-8">
+                    <h6>Designed to make you feel incredible collection</h6>
+                    <div>from 5 minutes</div>
+                  </div>
+                </div>
+                <div class="mt-2 row">
+                  <img class="col-4" src="Images/image17.jpg" alt="image17" title="image17">
+                  <div class="div2 col-8">
+                    <h6>Designed to make you feel incredible collection</h6>
+                    <div>from 5 minutes</div>
+                  </div>
+                </div>
+
+              </div>
+              <div class="right">
+                <div class="mt-2 row">
+                  <img class="col-4" src="Images/image15.jpg" alt="image15" title="image15">
+                  <div class="div2 col-8">
+                    <h6>Designed to make you feel incredible collection</h6>
+                    <div class="div2">from 5 minutes</div>
+                  </div>
+                </div>
+                <div class="mt-2 row">
+                  <img class="col-4" src="Images/image3.jpg" alt="image3" title="image3">
+                  <div class="div2 col-8">
+                    <h6>Designed to make you feel incredible collection</h6>
+                    <div>from 5 minutes</div>
+                  </div>
+                </div>
+                <div class="mt-2 row">
+                  <img class="col-4" src="Images/image12.jpg" alt="image12" title="image12">
+                  <div class="div2 col-8">
+                    <h6>Designed to make you feel incredible collection</h6>
+                    <div>from 5 minutes</div>
+                  </div>
+                </div>
+
+              </div>
+
+            </div>
+            <div class="MainDiv5">
+              <div class="header">
+                <h6>FASHION STORE</h6>
+                <div>
+                  <span><a class="active" href="#">ADIDAS</a></span> &ensp;|&ensp;
+                  <span><a href="#">ORIGINALS</a></span>&ensp;|&ensp;
+                  <span><a href="#">ADIDAS</a></span>&ensp;|&ensp;
+                  <span><a href="#">ORIGINALS</a></span>
+                </div>
+            </div>
+            <hr>
+            <div class="mainDiv5 mt-4">
+              <div class="left pb-4">
+                  <img src="Images/photo-1483985988355-763728e1935b.webp" alt="photo" title="photo" class="mb-3">
+                  <div class="img1 mt-3">
+                    <div class="rate"><span>Rate</span></div>
+                    <span class="star" onclick="clicked()" ><i class="far fa-star" id="starIcon"></i></span>
+                    <span class="star" onclick="clicked()"><i class="far fa-star" id="starIcon"></i></span>
+                    <span class="star" onclick="clicked()"><i class="far fa-star" id="starIcon"></i></span>
+                  </div>
+                  <h5 class="mt-3 px-3">Designed to make you feel incredible takes you</h5>
+                  <div class="time mt-3 px-3">from 30 minutes</div>   
+              </div>
+              <div class="right pb-4">
+                <img src="Images/girl-2366438__480.webp" alt="girl" title="girl" class="mb-3">
+                <div class="img1 mt-3">
+                  <div class="rate"><span>Rate</span></div>
+                  <span class="star" onclick="clicked()" ><i class="far fa-star" id="starIcon"></i></span>
+                  <span class="star" onclick="clicked()"><i class="far fa-star" id="starIcon"></i></span>
+                  <span class="star" onclick="clicked()"><i class="far fa-star" id="starIcon"></i></span>
+                </div>
+                <h5 class="mt-3 px-3">Designed to make you feel incredible takes you</h5>
+                <div class="time mt-3 px-3">from 20 minutes</div>
+              </div>
+
+            </div>
+            </div>
+            <div class="mainDiv6 mt-4">
+              <div class="left">
+                <img src="Images/image34.jpg" alt="photo" title="photo" class="mb-3">
+                <div class="img1 mt-3">
+                  <div class="rate"><span>Rate</span></div>
+                  <span class="star" onclick="clicked()" ><i class="far fa-star" id="starIcon"></i></span>
+                  <span class="star" onclick="clicked()"><i class="far fa-star" id="starIcon"></i></span>
+                  <span class="star" onclick="clicked()"><i class="far fa-star" id="starIcon"></i></span>
+                </div>
+                <h5 class="mt-3 px-3">Designed to make you feel incredible takes you</h5>
+                <div class="time mt-3 px-3">from 30 minutes</div> 
+                <div class="text1 mt-3 px-3">
+                  we ’ve got a collection of clothing that you’ll LOVE.
+                  Think midi and maxi dresses that’ll cue oohs all round.
+                </div>  
+            </div>
+            <div class="right pb-4">
+              <div class="row">
+                <img class="col-4" src="Images/photo-1490481651871-ab68de25d43d.webp" alt="image20" title="image20">
+                <div class="div2 col-8">
+                  <h6>Designed to make you feel incredible collection</h6>
+                  <div class="div2">from 5 minutes</div>
+                </div>
+              </div>
+              <div class="mt-3 row">
+                <img class="col-4" src="Images/photo-1469334031218-e382a71b716b.webp" alt="image18" title="image18">
+                <div class="div2 col-8">
+                  <h6>Designed to make you feel incredible collection</h6>
+                  <div>from 5 minutes</div>
+                </div>
+              </div>
+              <div class="mt-3 row">
+                <img class="col-4" src="Images/photo-1512436991641-6745cdb1723f.webp" alt="image21" title="image21">
+                <div class="div2 col-8">
+                  <h6>Designed to make you feel incredible collection</h6>
+                  <div>from 5 minutes</div>
+                </div>
+              </div>
+              <div class="mt-3 row">
+                <img class="col-4" src="Images/photo-1506152983158-b4a74a01c721.webp" alt="fbIMg" title="fbIMg">
+                <div class="div2 col-8">
+                  <h6>Designed to make you feel incredible collection</h6>
+                  <div>from 5 minutes</div>
+                </div>
+              </div>
+              <div class="mt-3 row">
+                <img class="col-4" src="Images/photo-1503342217505-b0a15ec3261c.webp" alt="photo" title="photo">
+                <div class="div2 col-8">
+                  <h6>Designed to make you feel incredible collection</h6>
+                  <div>from 5 minutes</div>
+                </div>
+              </div>
+                
+            </div>
+
+            </div>
+            <div class="mainDiv7 mt-4">
+              <div class="header">
+                <h6>Videos</h6>
+                <div>
+                  <span><a class="active" href="#">LIFE</a></span> &ensp;|&ensp;
+                  <span><a href="#">STYLE</a></span>&ensp;|&ensp;
+                  <span><a href="#">LIFE</a></span>&ensp;|&ensp;
+                  <span><a href="#">STYLE</a></span>
+                </div>
+            </div>
+            <hr>
+            <div class="MainDiv7 p-3">
+                <video controls autoplay class="mb-3">
+                  <source src="fashion.mp4" type="video/mp4">
+                </video>
+                <div class="img1">
+                  <div class="rate"><span>Rate</span></div>
+                  <span class="star" onclick="clicked()" ><i class="far fa-star" id="starIcon"></i></span>
+                  <span class="star" onclick="clicked()"><i class="far fa-star" id="starIcon"></i></span>
+                  <span class="star" onclick="clicked()"><i class="far fa-star" id="starIcon"></i></span>
+                </div>
+                <h4>Designed to make you feel incredible takes you</h4>
+                <div class="time">from 5 minutes</div>
+                
+            </div>
+
+            </div>
+            <div class="MainDiv8 mt-3">
+              <div class="left">
+                <div class="mt-2 row">
+                  <img class="col-4" src="Images/image25.jpg" alt="image25" title="image25">
+                  <div class="div2 col-8">
+                    <h6>Designed to make you feel incredible collection</h6>
+                    <div class="div2">from 5 minutes</div>
+                  </div>
+                </div>
+                <div class="mt-2 row">
+                  <img class="col-4" src="Images/image32.jpg" alt="image32" title="image32">
+                  <div class="div2 col-8">
+                    <h6>Designed to make you feel incredible collection</h6>
+                    <div>from 5 minutes</div>
+                  </div>
+                </div>
+                <div class="mt-2 row">
+                  <img class="col-4" src="Images/image17.jpg" alt="image17" title="image17">
+                  <div class="div2 col-8">
+                    <h6>Designed to make you feel incredible collection</h6>
+                    <div>from 5 minutes</div>
+                  </div>
+                </div>
+
+              </div>
+              <div class="right">
+                <div class="mt-2 row">
+                  <img class="col-4" src="Images/image15.jpg" alt="image15" title="image15">
+                  <div class="div2 col-8">
+                    <h6>Designed to make you feel incredible collection</h6>
+                    <div class="div2">from 5 minutes</div>
+                  </div>
+                </div>
+                <div class="mt-2 row">
+                  <img class="col-4" src="Images/image3.jpg" alt="image3" title="image3">
+                  <div class="div2 col-8">
+                    <h6>Designed to make you feel incredible collection</h6>
+                    <div>from 5 minutes</div>
+                  </div>
+                </div>
+                <div class="mt-2 row">
+                  <img class="col-4" src="Images/image12.jpg" alt="image12" title="image12">
+                  <div class="div2 col-8">
+                    <h6>Designed to make you feel incredible collection</h6>
+                    <div>from 5 minutes</div>
+                  </div>
+                </div>
+
+              </div>
+
+            </div>
+            </div>
+          </div>
+           <!--Aside of Page-->
+          <aside class="asidepage">
+            <div class="asideGallary">
+              <div class="item1">
+               <img src="Images/facebook-icon-preview.png">
+               <div>3.5K</div>
+               <div>Followers</div>
+              </div>
+              <div class="item2">
+               <img src="Images/twitter.png">
+               <div>55.6K</div>
+               <div>Followers</div>
+              </div>
+              <div class="item3">
+                <img src="Images/pinterest.png">
+                <div>405.6K</div>
+                <div>Followers</div>
+              </div>
+              <div class="item6">
+                <img src="Images/googlePlus.png">
+                <div>800K</div>
+                <div>Followers</div>
+              </div>
+             
+              <div class="item5">
+                <img src="Images/instagram.png">
+                <div>600k</div>
+                <div>Followers</div>
+              </div>
+              <div class="item4">
+                <img src="images/vk.png">
+                <div>550.8K</div>
+                <div>Followers</div>
+              </div>
+              
+             
+            </div>
+            <div class="Div2Aside mt-4 pt-3 pb-1 px-3">
+              <h6 class=" mb-3">POPULAR OPINION</h6>
+              <div class="asideDiv2">
+                <button>show</button>
+                <span>50% OFF </span>
+                <div class="text1 mt-2">
+                  we ’ve got a collection of clothing that you’ll LOVE.
+                  Think midi and maxi.
+                </div>
+
+              </div>
+
+            </div>
+            <div class="asideDiv3 pt-3 pb-3 px-3">
+              <div class="mt-2 row">
+                <img class="col-4" src="Images/image20.jpg" alt="image20" title="image20">
+                <div class="div2 col-8">
+                  <h6>Designed to make you feel incredible collection you’ll LOVE </h6>
+                  <div class="div2">from 5 minutes</div>
+                </div>
+              </div>
+              <div class="mt-2 row">
+                <img class="col-4" src="Images/image18.jpg" alt="image18" title="image18">
+                <div class="div2 col-8">
+                  <h6>Designed to make you feel incredible collection you’ll LOVE </h6>
+                  <div>from 5 minutes</div>
+                </div>
+              </div>
+              <div class="mt-2 row">
+                <img class="col-4" src="Images/image21.jpg" alt="image21" title="image21">
+                <div class="div2 col-8">
+                  <h6>Designed to make you feel incredible collection you’ll LOVE </h6>
+                  <div>from 5 minutes</div>
+                </div>
+              </div>
+              <div class="mt-2 row">
+                <img class="col-4" src="Images/FB_IMG_1561053975748.jpg" alt="fbIMg" title="fbIMg">
+                <div class="div2 col-8">
+                  <h6>Designed to make you feel incredible collection you’ll LOVE </h6>
+                  <div>from 5 minutes</div>
+                </div>
+              </div>
+
+
+            </div>
+            <div class="asideDiv4 mt-5 pl-3">
+              <div class="image1 mb-4">
+                  <img src="Images/image14.jpg" alt="image1" title="image1">
+                  <h2>That is an amazing Shot</h2>
+                  <div>we ’ve got a collection of clothing that you’ll LOVE.</div>
+              </div>
+              <div class="image2">
+                <img class="imag" src="Images/Screenshot_5.png" alt="image15" title="image15">
+                <div id="instagramIcon">
+                  <img src="Images/icons8-instagram-64.png" class="Instagram">
+                </div>
+                <h2>Instagram</h2>
+                <div>we ’ve got a collection of clothing that you’ll LOVE.</div>
+              </div>
+
+            </div>
+            <div class="asideDiv5 mt-5 pl-3">
+              <div class="image1 mb-4">
+                  
+                  <h3>Instagram</h3>
+                  <div>we ’ve got a collection of clothing that you’ll LOVE.</div>
+              </div>
+              <div class="image2 mt-5">
+                <img class="imag" src="Images/Screenshot_3.png" alt="image15" title="image15">
+                <h3>F-ing Curious?</h3>
+              </div>
+
+            </div>
+            <div class="asideDiv6 mt-5 pl-3">
+              <img class="asideDiv6Img mt-5" src="Images/Screenshot_2.png">
+            </div>
+          </aside>
+
+        </section>
+
+    </main>
+    <footer>
+      <section class="footer">
+        <div class="footerDiv1">
+          <img class="logoImg" src="Images/fashion logo.png">
+          <ul class="products"> 
+            <li><a href="#">dresses</a></li>
+            <li><a href="#">blouses</a></li>
+            <li><a href="#">skirts</a></li>
+            <li><a href="#">shoes</a></li>
+            <li><a href="#">scarves</a></li>
+            <li><a href="#">jeans</a></li>
+            <li><a href="#">slippers</a></li>
+            <li><a href="#">tshirts</a></li>
+          </ul>
+          <div class="chbox">
+            <input type="checkbox">&ensp; sign in
+          </div>
+        </div>
+        <hr class="Footerhr1"> 
+        <div class="footerDiv2 row">
+          <div class="col-4 textFooter">
+            we ’ve got a collection of clothing that you’ll LOVE.
+            Think midi and maxi dresses that’ll cue oohs all round.
+            we ’ve got a collection of clothing that you’ll LOVE.
+            <div class="spans mt-3">
+              <span class="span1"><i class="fab fa-facebook-f"></i></span>
+              <span class="span2"><i class="fab fa-facebook-messenger"></i></span>
+              <span class="span3"><i class="fab fa-twitter"></i></span>
+              <span class="span4"><i class="fab fa-instagram"></i></span>
+              <span class="span5"><i class="fab fa-pinterest"></i></span>
+            </div>
+          </div>
+            <ul class="col2Ul col-2">
+              <li><a href="#">Home</a></li>
+              <li><a href="#">Shop</a></li>
+              <li><a href="#">Sale</a></li>
+              <li><a href="#">care</a></li>
+              <li><a href="#">Stockists</a></li>
+            </ul>
+            <ul class="col2Ul col-2">
+              <li><a href="#">Home</a></li>
+              <li><a href="#">Shop</a></li>
+              <li><a href="#">Sale</a></li>
+              <li><a href="#">care</a></li>
+              <li><a href="#">Stockists</a></li>
+            </ul>
+            <ul class="col2Ul col-2">
+              <li><a href="#">Home</a></li>
+              <li><a href="#">Shop</a></li>
+              <li><a href="#">Sale</a></li>
+              <li><a href="#">care</a></li>
+              <li><a href="#">Stockists</a></li>
+            </ul>
+            <ul class="col2Ul col-2">
+              <li><a href="#">Home</a></li>
+              <li><a href="#">Shop</a></li>
+              <li><a href="#">Sale</a></li>
+              <li><a href="#">care</a></li>
+              <li><a href="#">Stockists</a></li>
+              <li><a href="#">eCommerce</a></li>
+              <li><a href="#">Details</a></li>
+            </ul>
+        </div>
+        <hr class="mt-5">
+        <div class="footerDiv3 row">
+          <div class="div1 col-6">
+            <img class="logoImg" src="Images/fashion logo.png">
+            Think midi and maxi 
+          </div>
+         
+          <div class="div2 col-6">
+            we ’ve got a collection of clothing that you’ll LOVE.
+            Think midi and maxi dresses 
+          </div>
+        </div>
+        <div class="footerDiv4">
+          <ul class="products mt-3"> 
+            <li><a href="#">dresses</a></li>
+            <li><a href="#">blouses</a></li>
+            <li><a href="#">skirts</a></li>
+            <li><a href="#">shoes</a></li>
+            <li><a href="#">scarves</a></li>
+            <li><a href="#">jeans</a></li>
+            <li><a href="#">slippers</a></li>
+            <li><a href="#">tshirts</a></li>
+            <li><a href="#">hells</a></li>
+            <li><a href="#">jackets</a></li>
+          </ul>
+        </div>
+      </section>
+    </footer>
+</body>
+
+</html>
+<script>
+     $(document).ready(function () {
+        $(".search").click(function () {
+            $(".searchForm").css("display", "inline-block");
+            $(".search").css("display", "none");
+        });
+     });
+    $(document).keypress(function (e) {
+        if (e.which == 13) {
+            $(".searchForm").css("display", "none");
+        $(".search").css("display", "inline-block");
+    }
+    });
+    function clicked(){
+          $(this).each(function () {
+               if (this.style.color !== "rgb(214, 98, 98)") {
+                   this.style.color = "rgb(214, 98, 98)";
+               } else {
+                   this.style.color = "#222";
+               }
+           });
+        }
+</script>
